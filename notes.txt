@@ -1,0 +1,33 @@
+Greul, Gutenbrunner
+-------------------
+
+start: unused blocks 
+blocks: file blocks, data blocks, directory blocks
+delete: give deleted blocks to unused Memory -> can be overwritten later
+
+Aumayr
+------
+
+first block -> add to next free block
+increase: search for new block
+
+Pirklbauer
+----------
+
+create -> find the blocks
+Filesystem sehr genau mit den bytes beschrieben
+increase -> find unlinked block
+
+Forstinger
+----------
+
+create -> description( + sub-description ) -> ask for free block -> fill content
+block-sie can be changed
+
+Dalpiaz
+-------
+
+Meta-Mgmt-List | free-Space-Mgmt-List | User-space
+delete: put back to Free-Space-Mgmt
+
+
